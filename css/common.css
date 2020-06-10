@@ -182,25 +182,59 @@
     margin: 10px;
     width: 720px;
     height: 455px;
-    background: url(../img/focus.jpg) no-repeat;
+    overflow: hidden;
 }
 
 .swiper .pre {
+    display: none;
     position: absolute;
     left: 0;
     top: calc(50% - 35px / 2);
     width: 25px;
     height: 35px;
     background: rgba(0, 0, 0, .4) url(../img/arrow-prev.png) center center no-repeat;
+    z-index: 2;
 }
 
 .swiper .next {
+    display: none;
     position: absolute;
     right: 0;
     top: calc(50% - 35px / 2);
     width: 25px;
     height: 35px;
     background: rgba(0, 0, 0, .4) url(../img/arrow-next.png) center center no-repeat;
+    z-index: 2;
+}
+
+.swiper ul {
+    width: 600%;
+}
+
+.swiper ul li {
+    float: left;
+}
+
+.circle {
+    position: absolute;
+    bottom: 10px;
+    left: 50px;
+}
+
+.circle li {
+    float: left;
+    width: 8px;
+    height: 8px;
+    /*background-color: #fff;*/
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    margin: 0 3px;
+    border-radius: 50%;
+    /*鼠标经过显示小手*/
+    cursor: pointer;
+}
+
+.current {
+    background-color: #fff;
 }
 
 .newsflash {
