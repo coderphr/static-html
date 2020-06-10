@@ -1,0 +1,413 @@
+/* 版心 */
+
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.fr {
+    float: right;
+}
+
+.fl {
+    float: left;
+}
+
+
+/* 快捷导航栏 */
+
+.shutcurt {
+    width: 100%;
+    height: 31px;
+    line-height: 31px;
+    background-color: #f1f1f1;
+}
+
+.shutcurt ul li {
+    float: left;
+}
+
+.shutcurt .w .fr ul li:nth-child(even) {
+    margin: 9px 15px;
+    width: 1px;
+    height: 12px;
+    background-color: #666;
+}
+
+.fr ul li img {
+    width: 10px;
+    height: 10px;
+    margin: -5px 0 0 3px;
+    transform: rotate(90deg);
+}
+
+.active-red {
+    color: #f81e1e
+}
+
+.header {
+    position: relative;
+    height: 105px;
+}
+
+.header .logo {
+    position: absolute;
+    top: 25px;
+    width: 171px;
+    height: 61px;
+}
+
+.header .logo a {
+    display: block;
+    width: 171px;
+    height: 61px;
+    background: url(../img/logo.png) -5px no-repeat;
+    font-size: 0;
+}
+
+.header .search {
+    position: absolute;
+    top: 35px;
+    left: 346px;
+    width: 538px;
+    height: 36px;
+    border: 2px solid #b1191a;
+}
+
+.header .search input {
+    float: left;
+    width: 454px;
+    height: 32px;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.header .search button {
+    float: left;
+    width: 80px;
+    height: 32px;
+    background-color: #b1191a;
+}
+
+.header .hotworlds {
+    position: absolute;
+    top: 75px;
+    left: 346px;
+}
+
+.hotworlds a {
+    margin: 0 10px;
+}
+
+.header .shopcar {
+    position: absolute;
+    top: 35px;
+    left: 977px;
+    width: 140px;
+    height: 30px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 30px;
+    background-color: #f7f7f7;
+}
+
+.shopcar .count {
+    position: absolute;
+    top: -8px;
+    left: 100px;
+    height: 15px;
+    padding: 2px;
+    text-align: center;
+    line-height: 15px;
+    color: white;
+    border-radius: 7px 7px 7px 0;
+    background-color: #e60012;
+}
+
+.shopcar img {
+    width: 15px;
+    height: 15px;
+}
+
+.classnav {
+    height: 47px;
+    line-height: 47px;
+    text-align: center;
+}
+
+.classnav .navleft {
+    float: left;
+    width: 210px;
+    height: 47px;
+    font-size: 17px;
+    color: #f8e9e9;
+    background-color: #b1191a;
+}
+
+.classnav .navright ul li {
+    float: left;
+    margin: 0 25px;
+    font-size: 16px;
+    color: #717171;
+}
+
+.main-content {
+    height: 640px;
+}
+
+.dropdown {
+    width: 210px;
+    height: 465px;
+    font-size: 14px;
+    line-height: 20px;
+    background-color: #c81623;
+}
+
+.dropdown ul li {
+    height: 31px;
+    padding: 5px 10px;
+    color: #f9e5e6;
+    transition: all 0.5s;
+}
+
+.dropdown ul li img {
+    float: right;
+    margin-top: 5px;
+    width: 10px;
+    height: 10px;
+}
+
+.swiper {
+    position: relative;
+    margin: 10px;
+    width: 720px;
+    height: 455px;
+    background: url(../img/focus.jpg) no-repeat;
+}
+
+.swiper .pre {
+    position: absolute;
+    left: 0;
+    top: calc(50% - 35px / 2);
+    width: 25px;
+    height: 35px;
+    background: rgba(0, 0, 0, .4) url(../img/arrow-prev.png) center center no-repeat;
+}
+
+.swiper .next {
+    position: absolute;
+    right: 0;
+    top: calc(50% - 35px / 2);
+    width: 25px;
+    height: 35px;
+    background: rgba(0, 0, 0, .4) url(../img/arrow-next.png) center center no-repeat;
+}
+
+.newsflash {
+    margin: 10px 0;
+    width: 250px;
+    height: 455px;
+}
+
+.newsflash .newsbor {
+    height: 373px;
+    border: 1.5px solid #cccccc;
+    border-bottom: none;
+}
+
+.newsbor a {
+    color: #939393;
+    font-size: 13px;
+}
+
+.newsbor .newstop {
+    height: 35px;
+    line-height: 35px;
+    border-bottom: 1px dashed #cccccc;
+}
+
+.newstop .fl {
+    margin-left: 15px;
+}
+
+.newstop .fr {
+    margin-right: 20px;
+}
+
+.newstop .fr img {
+    widows: 12px;
+    height: 12px;
+    margin-left: 10px;
+}
+
+.newscenter {
+    height: 130px;
+    border-bottom: 1px solid #cccccc;
+}
+
+.newscenter ul li {
+    margin-left: 15px;
+    height: 25px;
+}
+
+.newsbottom {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.newsbottom .item {
+    display: flex;
+    width: 25%;
+    height: 70px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-left: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+}
+
+.newsflooter {
+    margin-top: 2px;
+    height: 75px;
+}
+
+.recomend {
+    display: flex;
+    height: 165px;
+}
+
+.releft {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 100%;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, .6);
+}
+
+.releft p {
+    margin-top: 20px;
+}
+
+.reright {
+    width: 100%;
+    height: 100%;
+}
+
+.reright img {
+    float: left;
+    width: 25%;
+    height: 100%;
+}
+
+.floor {
+    margin-top: 20px;
+    height: 400px;
+}
+
+.floor .desc {
+    height: 40px;
+}
+
+.desc .fl {
+    color: #c81d4c;
+    font-size: 19px;
+    line-height: 40px;
+}
+
+.desc .fr ul li {
+    display: inline-block;
+    margin-right: 15px;
+    font-size: 12px;
+    line-height: 55px;
+}
+
+.desc .fr ul li:nth-child(even) {
+    margin: -2px 10px;
+    width: 1px;
+    height: 12px;
+    background-color: #666;
+}
+
+.floor .goods {
+    height: 360px;
+    border-top: 2px solid #844d51;
+}
+
+.floor .goods img:hover {
+    transform: translate(10px);
+    transition: all .5s linear;
+}
+
+.floor .goods .goodsleft {
+    width: 210px;
+    height: 100%;
+    overflow: hidden;
+    background-color: #f9f9f9;
+}
+
+.goodsleft .top {
+    display: flex;
+    padding: 0 10px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 100px;
+}
+
+.goodsleft .top .item {
+    width: 42%;
+    height: 35px;
+    color: #888843;
+    font-size: 13px;
+    line-height: 35px;
+    text-align: center;
+    border-bottom: 1px solid #cccccc;
+}
+
+.goodsleft img {
+    width: 100%;
+    height: 260px;
+}
+
+.goodscenter {
+    width: 320px;
+    height: 100%;
+    overflow: hidden;
+    margin-top: -13px;
+}
+
+.goodscenter img {
+    width: 100%;
+    height: 100%;
+}
+
+.goodsright {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: -13px;
+    width: 670px;
+    height: 100%;
+}
+
+.goodsright .item {
+    width: 33.3%;
+    height: 100%;
+}
+
+.goodsright .item div {
+    overflow: hidden;
+    border-right: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+}
+
+.footer {
+    height: 130px;
+}
+
+.footer .footer-p1 {
+    text-align: center;
+    line-height: 50px;
+}
